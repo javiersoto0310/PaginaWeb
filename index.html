@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toledo Inmobiliaria</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">    
+</head>
+<body>
+    <header class="header" id="inicio">
+        <div class="header-logo">
+            <img src="img/logo.png" alt="logo-inmobiliaria">
+        </div>        
+        <img src="img/hamburguesa.svg" alt="menu" class="hamburguesa">
+        <nav class="menu-navegacion">
+            <a href="#quienes-somos">¿Quiénes somos?</a>
+            <a href="#ventas">Propiedades en venta</a>
+            <a href="#alquileres">Alquileres</a>
+            <a href="#lotes">Lotes</a>
+            <a href="#consulta">Haz tu consulta</a>
+            <a href="#contacto">Contáctanos</a>
+        </nav>
+        <div class="contenedor-head">
+            <h1 class="titulo">Hacemos realidad tus ilusiones</h1>
+            <h2 class="subtituo">Encuentra la propiedad perfecta para ti con nuestra ayuda</h2>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor-servicios" id="quienes-somos">
+            <h2 class="subtitulo">Tu Socio en Bienes Raíces</h2>
+            <div class="contenedor-servicio">
+                <img src="img/empresa.svg" alt="imagen-empresa">
+                <div class="lista-servicios">
+                    <div class="servicios">
+                        <h3 class="opcion-servicio"><span class="numero-opcion">1</span>Empresa</h3>
+                        <p>Bienvenidos a Toledo inmobiliaria, una empresa dedicada a convertir tus sueños en realidad. Con años de experiencia en el mercado inmobiliario, nuestro equipo de profesionales se compromete a ofrecerte un servicio personalizado y de calidad.</p>
+                    </div>
+                    <div class="servicios">
+                        <h3 class="opcion-servicio"><span class="numero-opcion">2</span>Especialista</h3>
+                        <p>En la venta y alquiler de propiedades residenciales, comerciales y proyectos de inversión.</p>
+                    </div>
+                    <div class="servicios">
+                        <h3 class="opcion-servicio"><span class="numero-opcion">3</span>Nuestro objetivo</h3>
+                        <p> Es guiarte en cada paso del proceso, asegurando que encuentres la propiedad perfecta que se ajuste a tus necesidades y presupuesto. Valoramos la transparencia, la confianza y la satisfacción de nuestros clientes. En Toledo inmobiliaria, no solo vendemos propiedades, sino que construimos sueños y creamos hogares. Descubre cómo podemos ayudarte a encontrar tu lugar ideal hoy mismo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galeria" id="ventas">
+            <div class="contenedor">
+              <h2 class="subtitulo">Propiedades en venta</h2>
+              <div class="contenedor-galeria">
+                <div class="galeria-item">
+                  <img src="img/venta1.jpg" alt="Casa en venta, Calle falsa 123 Barrio Atardecer, 3 habitaciones, 2 baños, 1 garaje" class="img-galeria">
+                  <div class="propiedad-precio">$220,000</div>
+                  <figcaption>
+                    Calle falsa 123 Barrio Atardecer
+                    <div class="propiedad-detalle">
+                      <i class='bx bx-bed'></i> 3
+                      <i class='bx bx-bath'></i> 2
+                      <i class='bx bx-car'></i> 1
+                    </div>
+                  </figcaption>
+                </div>
+                <div class="galeria-item">
+                  <img src="img/venta2.jpg" alt="Casa en venta, Calle falsa 456 Barrio Atardecer, 3 habitaciones, 2 baños, 1 garaje" class="img-galeria">
+                  <div class="precio">$120,000</div>
+                  <figcaption>
+                    Calle falsa 456 Barrio Atardecer
+                    <div class="propiedad-detalle">
+                      <i class='bx bx-bed'></i> 3
+                      <i class='bx bx-bath'></i> 2
+                      <i class='bx bx-car'></i> 1
+                    </div>
+                  </figcaption>
+                </div>
+                <div class="galeria-item">
+                  <img src="img/venta3.jpg" alt="Casa en venta, Calle falsa 789 Barrio Atardecer, 3 habitaciones, 2 baños, 1 garaje" class="img-galeria">
+                  <div class="precio">$180,000</div>
+                  <figcaption>
+                    Calle falsa 789 Barrio Atardecer
+                    <div class="propiedad-detalle">
+                      <i class='bx bx-bed'></i> 3
+                      <i class='bx bx-bath'></i> 2
+                      <i class='bx bx-car'></i> 1
+                    </div>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="galeria" id="alquileres">
+            <div class="contenedor">
+              <h2 class="subtitulo">Alquileres</h2>
+              <div class="contenedor-galeria">
+                <div class="galeria-item">
+                  <img src="img/alquiler1.jpg" alt="Casa en alquiler, Calle falsa 123 Barrio Amanecer, 3 habitaciones, 2 baños, 1 garaje" class="img-galeria">
+                  <figcaption>
+                    Calle falsa 123 Barrio Amanecer
+                    <div class="propiedad-detalle">
+                      <i class='bx bx-bed'></i> 3
+                      <i class='bx bx-bath'></i> 2
+                      <i class='bx bx-car'></i> 1
+                    </div>
+                  </figcaption>
+                </div>
+                <div class="galeria-item">
+                  <img src="img/alquiler2.jpg" alt="Casa en alquiler, Calle falsa 456 Barrio Amanecer, 3 habitaciones, 2 baños, 1 garaje" class="img-galeria">
+                  <figcaption>
+                    Calle falsa 456 Barrio Amanecer
+                    <div class="propiedad-detalle">
+                      <i class='bx bx-bed'></i> 3
+                      <i class='bx bx-bath'></i> 2
+                      <i class='bx bx-car'></i> 1
+                    </div>
+                  </figcaption>
+                </div>
+                <div class="galeria-item">
+                  <img src="img/alquiler3.jpg" alt="Casa en alquiler, Calle falsa 789 Barrio Amanecer, 3 habitaciones, 2 baños, 1 garaje" class="img-galeria">
+                  <figcaption>
+                    Calle falsa 789 Barrio Amanecer
+                    <div class="propiedad-detalle">
+                      <i class='bx bx-bed'></i> 3
+                      <i class='bx bx-bath'></i> 2
+                      <i class='bx bx-car'></i> 1
+                    </div>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="galeria" id="lotes">
+            <div class="contenedor">
+              <h2 class="subtitulo">Lotes en venta</h2>
+              <div class="contenedor-galeria">
+                <div class="galeria-item">
+                  <img src="img/lote1.jpg" alt="Lote en venta, Calle falsa 1234 Barrio Atardecer, Manzana 89, Lote 5" class="img-galeria">
+                  <div class="precio">$50,000</div>
+                  <figcaption>
+                    <ul class="descripcion-lote">
+                      <li><strong>Nombre de la calle:</strong> Calle falsa 1234</li>
+                      <li><strong>Barrio:</strong> Atardecer</li>
+                      <li><strong>Manzana:</strong> 89</li>
+                      <li><strong>Lote:</strong> 5</li>
+                    </ul>
+                  </figcaption>
+                </div>
+                <div class="galeria-item">
+                  <img src="img/lote2.jpg" alt="Lote en venta, Calle falsa 1234 Barrio Atardecer, Manzana 89, Lote 5" class="img-galeria">
+                  <div class="precio">$20,000</div>
+                  <figcaption>
+                    <ul class="descripcion-lote">
+                      <li><strong>Nombre de la calle:</strong> Calle falsa 1234</li>
+                      <li><strong>Barrio:</strong> Atardecer</li>
+                      <li><strong>Manzana:</strong> 89</li>
+                      <li><strong>Lote:</strong> 5</li>
+                    </ul>
+                  </figcaption>
+                </div>
+                <div class="galeria-item">
+                  <img src="img/lote3.jpg" alt="Lote en venta, Calle falsa 1234 Barrio Atardecer, Manzana 89, Lote 5" class="img-galeria">
+                  <div class="precio">$40,000</div>
+                  <figcaption>
+                    <ul class="descripcion-lote">
+                      <li><strong>Nombre de la calle:</strong> Calle falsa 1234</li>
+                      <li><strong>Barrio:</strong> Atardecer</li>
+                      <li><strong>Manzana:</strong> 89</li>
+                      <li><strong>Lote:</strong> 5</li>
+                    </ul>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+          </section>  
+        <section id="consulta" class="consulta">
+            <div class="contenedor">
+                <h2 class="subtitulo">Podes realizar tu consulta aquí</h2>
+                <div class="consulta-contenido">
+                    <form id="formulario-consulta" class="formulario-contacto">
+                        <div class="campo-formulario">
+                            <label for="nombre">Nombre completo:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="telefono">Número de celular de contacto:</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="horario">Horario de contacto:</label>
+                            <input type="text" id="horario" name="horario" required>
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="motivo">Motivos del interés:</label>
+                            <textarea id="motivo" name="motivo" rows="4" required></textarea>
+                        </div>
+                        <div class="campo-formulario">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contacto" id="contacto"></section>
+            <div class="footer-contenedor">
+                <div class="footer-seccion">
+                    <img src="img/logo.png" alt="Logo Inmobiliaria" class="footer-logo">
+                    <p>&copy; 2025 Toledo Inmobiliaria. Todos los derechos reservados.</p>
+                    <p>Desarrollado por <a href="https://javierSDesing.com" target="_blank" class="diseñador">JavierS Design</a></p>
+                </div>
+                <div class="footer-seccion">
+                    <h3>Contacto</h3>
+                    <p>
+                        <i class='bx bx-map'></i>
+                        <a href="https://www.google.com/maps/place/Calle+Ejemplo+123,+Barrio+Centro" target="_blank" class="geolocalizacion">
+                            Calle Ejemplo 123, Barrio Centro
+                        </a>
+                    </p>
+                    <p><i class='bx bx-phone'></i> +54 11 1234-5678</p>
+                    <p><i class='bx bx-envelope'></i> contacto@toledoinmobiliaria.com</p>
+                    <p><i class='bx bx-time'></i> Lunes a Viernes, 9:00 - 18:00</p>
+                </div>
+                <div class="footer-seccion">
+                    <h3>Enlaces Rápidos</h3>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#quienes-somos">¿Quiénes somos?</a>
+                    <a href="#ventas">Propiedades en venta</a>
+                    <a href="#alquileres">Alquileres</a>
+                    <a href="#lotes">Lotes</a>
+                    <a href="#consulta">Haz tu consulta</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer-seccion">
+                    <h3>Síguenos</h3>
+                    <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </section>        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>   
+    <a href="https://wa.me/+541112345678" class="boton-whatsapp" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a> 
+</body>
+</html>
+
+
